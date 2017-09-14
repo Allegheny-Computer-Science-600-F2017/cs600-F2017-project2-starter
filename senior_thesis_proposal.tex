@@ -109,22 +109,13 @@
 
 \makeatletter
 
-\def\maketitle{%
-  %\null
-  \thispagestyle{empty}%
-  %\vfill
-  \begin{center}%\leavevmode
-    %\normalfont
-    {\Huge \@title\par}%
-    %\hrulefill\par
-    {\normalsize \@author\par}%
+\def\maketitle{
+  \thispagestyle{empty}
+  \begin{center}
+    {\Huge \@title\par}
+    {\normalsize \@author\par}
     \vskip .4in
-%    {\Large \@date\par}%
-  \end{center}%
-  %\vfill
-  %\null
-  %\cleardoublepage
-
+  \end{center}
   }
 
 \makeatother
