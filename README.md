@@ -99,8 +99,8 @@ this tool asks if you want to use encryption, please answer with a "yes".
 Now, you should have a `.travis.yml` file with a secure access token for your
 GitHub repository for this assignment. Use a text editor to edit this file and
 place the following lines of code at the bottom of it. Please note that you must
-preserve the spacing in the above code segment when you paste it into your own
-`.travis.yml` file. Finally, you should ask Professor Kapfhammer to enable
+preserve the spacing in the following code segment when you paste it into your
+own `.travis.yml` file. Finally, you should ask Professor Kapfhammer to enable
 Travis-based continuous integration for your GitHub repository. Now, you are
 ready to perform a commit with tags and see your PDF uploaded to GitHub!
 
@@ -148,8 +148,8 @@ that you correctly execute this sequence of commands you will release a new
 version of your document to GitHub that is easily accessible as a PDF to you and
 to your first and second readers. If you are unable to create a tagged release
 using the automated system that Travis provides you can manually create one by
-using GitHub's web interface; to adopt the manual approach please click "Draft a
-new release" button in the Releases tab of your GitHub repository.
+using GitHub's web interface; to adopt the manual approach please click the
+"Draft a new release" button in the Releases tab of your GitHub repository.
 
 ## Updates
 
@@ -179,8 +179,8 @@ manually resolve them with the help of the instructor or a teaching assistant.
 ## Problems
 
 If you have found a problem with this assignment's provided source code, then
-you can go to the [Computer Science 600 Project 1
-Starter](https://github.com/Allegheny-Computer-Science-600-F2017/cs600-F2017-project1-starter)
+you can go to the [Computer Science 600 Project 2
+Starter](https://github.com/Allegheny-Computer-Science-600-F2017/cs600-F2017-project2-starter)
 repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button. To ensure that your issue is properly resolved,
 please provide as many details as is possible about the problem that you
