@@ -20,14 +20,14 @@ PROBLEMS?
 
 -->
 
-# cs600-F2017-project1
+# cs600-F2017-project2
 
-This repository contains the starter for project one in Computer Science 600
+This repository contains the starter for project two in Computer Science 600
 Fall 2017. The main directory of this repository contains the LaTeX source code
 for a project that is designed for use with [GitHub
 Classroom](https://classroom.github.com/). To learn more about the course in
-which these assignments were completed, please visit the [Computer Science 600
-Fall 2017 GitHub
+which these assignments were completed, please visit the [Computer Science
+600 Fall 2017 GitHub
 Organization](https://github.com/Allegheny-Computer-Science-600-F2017).
 
 The LaTeX file in this repository is automatically compiled with [Travis
