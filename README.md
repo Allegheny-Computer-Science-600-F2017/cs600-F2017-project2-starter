@@ -37,16 +37,6 @@ repository whenever a commit is tagged for a release. Additionally, you can use
 a LaTeX compilation command like `pdflatex` or `latexmk` to compile the provided
 LaTeX file on your local workstation.
 
-<!---
-
- Since the Travis builds for this repository will initially fail (as evidenced by
- a red &#x2717; appearing in the commit logs instead of a green &#x2714;), the
- researcher is responsible for completing all of the steps needed to satisfy the
- requirements for the assignment, thus causing a &#x2714; to instead appear in
- the commit logs.
-
---->
-
 ## Introduction
 
 This assignment requires a researcher to write a LaTeX document, stored in the
