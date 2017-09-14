@@ -87,21 +87,22 @@ window when you are in the root of your GitHub repository.
 ## Security
 
 In order for Travis to automatically upload a PDF, called
-`senior_thesis_description.pdf`, to GitHub when you tag the commit, you need to
+`senior_thesis_proposal.pdf`, to GitHub when you tag the commit, you need to
 created your encrypted access token. To complete this task you must type the
 command `travis setup releases --force` in your GitHub repository for this
 assignment. Then, when prompted, please type your username and password for
 GitHub. When asked to give the filename, you can type
-`_build/senior_thesis_description.pdf`. When asked if you want to deploy from a
+`_build/senior_thesis_proposal.pdf`. When asked if you want to deploy from a
 specific repository, you can respond with the answer of "no". Finally, when
 this tool asks if you want to use encryption, please answer with a "yes".
 
 Now, you should have a `.travis.yml` file with a secure access token for your
 GitHub repository for this assignment. Use a text editor to edit this file and
-place the following lines of code at the bottom of it. Finally, you should ask
-Professor Kapfhammer to enable Travis-based continuous integration for your
-GitHub repository. Now, you are ready to perform a commit with tags and see your
-PDF uploaded to GitHub!
+place the following lines of code at the bottom of it. Please note that you must
+preserve the spacing in the above code segment when you paste it into your own
+`.travis.yml` file. Finally, you should ask Professor Kapfhammer to enable
+Travis-based continuous integration for your GitHub repository. Now, you are
+ready to perform a commit with tags and see your PDF uploaded to GitHub!
 
 ```
   skip_cleanup: true
@@ -122,17 +123,17 @@ all GitHub projects are asked to adopt.
 
 Please note that the faculty members who read the PDF that is generated from the
 LaTeX source code will only do so by downloading the "tagged" release of the
-file `senior_thesis_description.pdf` that has a version number greater than
+file `senior_thesis_proposal.pdf` that has a version number greater than
 1.0.0. That is, if your commit is tagged with
-`senior_thesis_description-gkapfham-1.0.0`, then the file
-`senior_thesis_description.pdf` should be available for download in the
+`senior_thesis_proposal-gkapfham-1.0.0`, then the file
+`senior_thesis_proposal.pdf` should be available for download in the
 "Releases" tab in your GitHub repository for this project under the name
-`senior_thesis_description-gkapfham-1.0.0`.
+`senior_thesis_proposal-gkapfham-1.0.0`.
 
 Once you have finished making a single small change to the
-`senior_thesis_description.tex`, you should commit your file using a `git
+`senior_thesis_proposal.tex`, you should commit your file using a `git
 commit` command. Now, to create your first tag for this repository you could
-type `git tag senior_thesis_description-gkapfham-0.1.0`. Of course, you should
+type `git tag senior_thesis_proposal-gkapfham-0.1.0`. Of course, you should
 substitute your user name for `gkapfham` when you create the tag. At this point,
 you are ready to push your changes with the appropriate tag by typing the
 command `git push -u origin master --tags`. After waiting for a period of time,
@@ -140,12 +141,15 @@ you should see that your GitHub repository features a new release of the
 document that you must create for this project.
 
 When you make subsequent changes to your files and perform commits and you are
-ready to release a new version of `senior_thesis_description.pdf`, then you
-should again tag your work &mdash; before running a push &mdash; with a tag that
+ready to release a new version of `senior_thesis_proposal.pdf`, then you should
+again tag your work &mdash; before running a push &mdash; with a tag that
 adheres to the [Semantic Versioning](http://semver.org/) standard. Each time
 that you correctly execute this sequence of commands you will release a new
 version of your document to GitHub that is easily accessible as a PDF to you and
-to your first and second readers.
+to your first and second readers. If you are unable to create a tagged release
+using the automated system that Travis provides you can manually create one by
+using GitHub's web interface; to adopt the manual approach please click "Draft a
+new release" button in the Releases tab of your GitHub repository.
 
 ## Updates
 
@@ -154,7 +158,7 @@ you would like to receive these updates, then you can type this command in the
 main directory for this assignment:
 
 ```
-git remote add download git@github.com:Allegheny-Computer-Science-600-F2017/cs600-F2017-lab1-starter.git
+git remote add download git@github.com:Allegheny-Computer-Science-600-F2017/cs600-F2017-lab2-starter.git
 ```
 
 You should only need to type this command once; typing the command additional
@@ -185,7 +189,7 @@ experienced.
 Please note that these assignment sheets have been developed and tested on an
 Ubuntu 16.04 workstation running a recent version of LaTeX that was manually
 installed using the TeXLive installer. It is also worth noting that you can
-compile the `senior_thesis_description.tex` file using LaTeX development tools
+compile the `senior_thesis_proposal.tex` file using LaTeX development tools
 such as `latexmk` or `pdflatex`. If you are unable to compile this file with
 your development tools and your execution environment, then please open a new
 issue and we will attempt to resolve your concerns.
