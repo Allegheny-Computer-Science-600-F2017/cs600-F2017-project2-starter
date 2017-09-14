@@ -63,7 +63,7 @@
 \clubpenalty=10000  % Don't allow orphans
 \widowpenalty=10000 % Don't allow widows
 
-% this should give me the ability to use some math symbols that
+% this should give you the ability to use some math symbols that
 % were available by default in standard latex (i.e. \Box)
 
 \usepackage{latexsym}
@@ -93,6 +93,7 @@
 }
 
 % leave things with no spacing extra spacing in the final version of the paper
+
 \renewcommand{\baselinestretch}{1.0} % must go before the begin of doc
 
 % suppress the use of indentation for a paragraph
@@ -103,6 +104,7 @@
 \begin{document}
 
 % handle widows appropriately
+
 \def\widow#1{\vskip #1\vbadness10000\penalty-200\vskip-#1}
 
 % build the title section
