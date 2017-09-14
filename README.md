@@ -40,34 +40,23 @@ LaTeX file on your local workstation.
 ## Introduction
 
 This assignment requires a researcher to write a LaTeX document, stored in the
-file `senior_thesis_description.tex`, that explains three key aspects of a
-proposed senior thesis research project. First, you should state the tentative
-title for your senior thesis. Second, you should write a one-paragraph abstract
-that explains your proposed research. Third, you should include a bulleted list
-that suggests a potential first and second reader for your thesis research.
-Below the bulleted list you should justify your choice of readers with an
-additional paragraph.
+file `senior_thesis_proposal.tex` that proposes all of the key aspects of a
+senior thesis research project. Please refer to the source code in this file for
+an explanation of the components of a senior thesis proposal and the way in
+which you create them in LaTeX.
 
-The researcher is also responsible for writing a one-paragraph reflection,
-stored in the file `reflection.md`, that explains the challenges that you faced
-and the solutions you developed when completing this project. This is a Markdown
-file that must adhere to the standards described in the [Markdown Syntax
-Guide](https://guides.github.com/features/mastering-markdown/). Remember, you
-can preview the contents of a comitted Markdown file by clicking on the name of
-the file in your GitHub repository.
+If your LaTeX source code meets all of the established requirements, then you
+will see a green &#x2714; in the listing of commits in GitHub. If your
+submission does not meet the requirements, a red &#x2717; will appear instead.
+Your course instructor will reduce a researcher's grade for this assignment if
+the red &#x2717; appears on the last commit in GitHub immediately before the
+assignment's due date on October 31, 2017 at 9:00 pm.
 
-If both your LaTeX source code and your writing meet all of the established
-requirements, then you will see a green &#x2714; in the listing of commits in
-GitHub. If your submission does not meet the requirements, a red &#x2717; will
-appear instead. Your course  instructor will reduce a researcher's grade for
-this assignment if the red &#x2717; appears on the last commit in GitHub
-immediately before the assignment's due date on September 7, 2017 at 9:00 a.m..
-
-Yet, if the green &#x2714; appears on the last commit in your GitHub
-repository, then you satisfied all of the main checks, thereby allowing the
-course instructors to further evaluate other aspects of your LaTeX source code
-and writing, as further described in the remainder of this assignment sheet.
-Unless you provide the course instructors with documentation of the extenuating
+Yet, if the green &#x2714; appears on the last commit in your GitHub repository,
+then you satisfied all of the main checks, thereby allowing the course
+instructors to further evaluate other aspects of your LaTeX source code and
+writing, as further described in the remainder of this assignment sheet. Unless
+you provide the course instructors with documentation of the extenuating
 circumstances that you are facing, no late work will be considered towards your
 grade for this project.
 
@@ -80,8 +69,8 @@ following GitHub guides: [Mastering
 Markdown](https://guides.github.com/features/mastering-markdown/), [Hello
 World](https://guides.github.com/activities/hello-world/), and [Documenting Your
 Projects on GitHub](https://guides.github.com/features/wikis/). Each of these
-guides will help you to understand how to use both [GitHub](http://github.com) and
-[GitHub Classroom](https://classroom.github.com/).
+guides will help you to understand how to use both [GitHub](http://github.com)
+and [GitHub Classroom](https://classroom.github.com/).
 
 ## Travis
 
